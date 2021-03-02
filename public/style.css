@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.chatt-area {
+    width: 800px;
+    max-width: 90%;
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+.chatt-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+}
+
+.message-area {
+    padding-top: 40px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+.incoming {
+    background: #8F8BE8;
+    color: #fff;
+}
+
+.outgoing {
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+}
+
+.text {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    background-color: #FBFBFB;
+    outline: none;
+}
+
+.header-title {
+    color: red;
+}
